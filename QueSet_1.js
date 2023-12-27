@@ -18,7 +18,8 @@ const item = {
  console.log(item)
 
  //4. try to add new key to the const object in problem 3 were you able to do it?
- item.percentage = "90%"
+ item.percentage = "90%" //1st way to add
+ item['marks']=99       //2st way to add
  console.log(item)
 
  //5.Write a JS program to create a word dictionary of 5 words.
