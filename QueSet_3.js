@@ -13,7 +13,7 @@ for(let i=0; i<Object.keys(marks).length;i++){
 
 
 
-// 2. write the program in Q1 Using for loop in  loop
+// 2. write the program in Q1 Using for in  loop
 
 for(let a in marks){
     console.log("The Marks Of "+ a +" are " +marks[a])
