@@ -4,12 +4,14 @@ console.log("man\"".length)
 
 //ans: it will give 4 as output because \" is a single escape sequence character
 
-//2. write a program to understand starts with and end with function of a string.
- let text = "Hello everyone how are you?"
-let result1 = text.startsWith("Hello")
-let result2 =text.endsWith("you?")
+//2. write a program to understand includes,starts with and end with function of a string.
+let text = "Hello everyone how are you?"
+let result1 = text.includes("how1")
+let result2 = text.startsWith("Hello")
+let result3 =text.endsWith("you?")
 console.log(result1)
 console.log(result2)
+console.log(result3)
 
 //3.Write a program to convert given string to Lowercase.
  let str = "BUTTER FLY"
