@@ -20,11 +20,15 @@ console.log(str.toLowerCase())
 //4. Extract the amount out of this string. string is "please give Rs 1000"
 
 let str1 = "please give Rs 1000"
-console.log(str1.slice(12))
+let amount = Number.parseInt( str1.slice(15))
+console.log(amount)
+console.log(typeof amount) // just to check type
+//another way
+console.log(str1.slice("please give Rs ".length))
 
 //5. Try to change 4th character of given string were you able to do it? the string is Give Me Rose change R into P
 
 //YES WE CAN DO IT WITH THE HELP OF REPLACE PROPERTY OD STRING
 
-let char = " Give Me Rose"
+let char = "Give Me Rose"
 console.log(char.replace('R','P'))
